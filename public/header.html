@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>淘宝头</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- 以下四个文件顺序一定，不可改变 -->
+    <link rel="stylesheet" href="stylesheets/css/bootstrap.css">
+    <script src="javascripts/js/jquery.min.js"></script>
+    <script src="javascripts/js/popper.min.js"></script>
+    <script src="javascripts/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="stylesheets/common.css"/>
+    <link rel="stylesheet" href="stylesheets/header.css"/>
+</head>
+<body>
+<div class="container">
+    <!--添加<i>标签制作的精灵图图标-->
+    <!--大图片-->
+    <div><img src="images/1.jpg" alt=""/></div>
+    <!--//导航栏-->
+    <div class="row  bg-light mx-0">
+        <div class="col-4">
+            <div class="navbar navbar-expand-sm bg-light ">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="">天猫首页</a></li>
+                    <li class="nav-item  "><a class="nav-link" href="">喵，欢迎来到天猫</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">请登录</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">免费注册</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-6">
+            <div class="navbar navbar-expand-sm bg-light">
+                <ul class="navbar-nav">
+                    <!--//我的淘宝，下拉菜单-->
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a data-toggle="dropdown" class=" dropdown-toggle nav-link" href="">我的淘宝</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="">已买到的宝贝</a></li>
+                                <li><a href="">已卖出的宝贝</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!--//购物车-->
+                    <li class="nav-item"><a class="nav-link" href="">购物车</a></li>
+                    <!--//收藏夹下拉菜单-->
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle nav-link" href="">收藏夹</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="">收藏的宝贝</a></li>
+                                <li><a href="">收藏的店铺</a></li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="">手机版</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">某宝网</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">商家支持</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">网站导航</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!--第三栏-->
+   <div class="row mx-0">
+       <div class="col-3 d-flex justify-content-around align-items-center border">
+           <!--天猫图片-->
+          <div><img src="images/3.png" alt=""/></div>
+           <!--西安 下拉菜单-->
+           <div class="dropdown">
+               <button data-toggle="dropdown" class="btn btn-outline-success dropdown-toggle">西安</button>
+               <ul class="dropdown-menu">
+                   <li class="font_small">热门城市</li>
+                   <li class="">
+                       <a href="">北京</a>&nbsp;&nbsp;
+                       <a href="">上海</a>&nbsp;&nbsp;
+                       <a href="">上海</a>&nbsp;&nbsp;
+                       <a href="">北京</a>&nbsp;&nbsp;
+                   </li>
+                   <li>
+                       <a href="">北京</a>&nbsp;&nbsp;
+                       <a href="">上海</a>&nbsp;&nbsp;
+                       <a href="">上海</a>&nbsp;&nbsp;
+                       <a href="">北京</a>&nbsp;&nbsp;
+                   </li>
+               </ul>
+           </div>
+       </div>
+       <div class="col-6 input-group">
+           <input type="text" class="form-control border-success rounded-0 "
+                   placeholder="老弟，搜点啥"/>
+           <div class="">搜索</div>
+
+       </div>
+       <div class="col-3"></div>
+   </div>
+
+
+</div>
+</body>
+</html>
